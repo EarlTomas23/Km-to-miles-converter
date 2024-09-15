@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <script>
+        function km2miles(){
+	        var x=document.getElementById("km").value;
+	        var res=x*0.621371;
+	        document.getElementById("mile").value=res;
+	    }
+    </script>
+</head>
+<body>
+    <center>
+	    <h1>conversion of kilometers to miles</h1>
+		<font size="5">
+		    <br>
+		    Enter Kilometer:<input type="txt" id="km" name=txtkm">
+		    <br><br>
+		    <button type="button" onclick="km2miles()" >km to miles</button>
+		    <br><br>
+		    kilometer to Miles:<input type="txt" id="mile" name="txtmile" disabled>
+		</font>
+	</center>
+</body>
+</html>
+    
